@@ -62,8 +62,8 @@ app.get('/api/detail', async (req, res) => {
     course.data[key].forEach(cor => {
       console.log(cor.id, id)
       if (cor.id == id) {
-        cor.desc = `北京开课吧科技有限公司，简称开课吧，是慧科集团旗下高端互联网职业教育平台。
-          作为互联网从业者职业成长平台，开课吧致力于高效连接人与职业，
+        cor.desc = `北京docker部署科技有限公司，简称docker部署，是慧科集团旗下高端互联网职业教育平台。
+          作为互联网从业者职业成长平台，docker部署致力于高效连接人与职业，
           基于创新科技提供智慧学习服务，通过线上班级在 kaikeba.com 的交付，
           用一线企业的实效实战教育产品，为互联网人提供职业成长服务。
           目前推出在线课程有:

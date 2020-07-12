@@ -62,7 +62,7 @@ class App extends Component {
       'pages/user/user',
     ],
     window: {
-      navigationBarTitleText: '开课吧',
+      navigationBarTitleText: 'docker部署',
     },
     tabBar: {
       selectedColor: "#b4282d",

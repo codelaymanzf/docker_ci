@@ -36,7 +36,7 @@ export default class Index extends Component {
     const {todoStore} = this.props
     return (
       <View className='index'>
-        <Text>开课吧Todo List</Text>
+        <Text>docker部署Todo List</Text>
         <View className='at-icon at-icon-bullet-list'></View>
 
         <AtInput value={this.state.val} onChange={this.handleInput}></AtInput>

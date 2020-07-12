@@ -3,7 +3,7 @@ import Taro from '@tarojs/taro'
 import { observable } from 'mobx'
 
 const todoStore = observable({
-  todos: ['吃饭','睡觉','开课吧学习'],
+  todos: ['吃饭','睡觉','docker部署学习'],
 
   addTodo(item) {
     this.todos.push(item)
