@@ -21,7 +21,7 @@ http.createServer(function (req, res) {
         res.end('no such location')
     })
 }).listen(7777,() =>{
-    console.log('WebHooks Listern at 7777');
+    console.log('WebHooks is listening at port 7777');
 })
 
 handler.on('error', function (err) {
