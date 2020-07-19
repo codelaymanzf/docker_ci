@@ -2,7 +2,7 @@
 测试使用Docker / Github Webhook实现CI持续集成
 
 - docker-compose
-- gitlab webhooks
+- github webhooks
 
 
 
